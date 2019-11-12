@@ -3,7 +3,8 @@
 // The list of file replacements can be found in `angular.json`.
 
 export const environment = {
-  production: false
+    production: false,
+    dataService: 'https://us-central1-easyserver-bf0d9.cloudfunctions.net/api'
 };
 
 /*
