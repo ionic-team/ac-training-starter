@@ -1,0 +1,7 @@
+{
+  "name": "ac-training-starter",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
