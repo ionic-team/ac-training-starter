@@ -26,6 +26,7 @@
 			<key>CFBundleURLSchemes</key>
 			<array>
 				<string>capacitor</string>
+                <string>com.ionic.actraining</string>
 			</array>
 		</dict>
 	</array>

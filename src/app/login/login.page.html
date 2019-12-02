@@ -2,37 +2,12 @@
     <div class="login">
         <ion-card>
             <ion-card-header>
-                <ion-card-title>Auth Connect Demo</ion-card-title>
+                <ion-card-title>Auth Connect Demo (Auth0)</ion-card-title>
             </ion-card-header>
             <ion-card-content>
-                <form
-                    class="login-form"
-                    [formGroup]="loginForm"
-                    (ngSubmit)="tryLogin(loginForm)"
-                >
-                    <ion-item>
-                        <ion-input
-                            formControlName="username"
-                            placeholder="Email"
-                            type="email"
-                        ></ion-input>
-                    </ion-item>
-                    <ion-item>
-                        <ion-input
-                            formControlName="password"
-                            placeholder="Password"
-                            type="password"
-                        ></ion-input>
-                    </ion-item>
-                    <div class="login-form__actions">
-                        <ion-button
-                            color="primary"
-                            [disabled]="loginForm.invalid"
-                            type="submit"
-                            >Login</ion-button
-                        >
-                    </div>
-                </form>
+                <ion-button color="primary" (click)="tryLogin()">
+                    Login with Auth0
+                </ion-button>
             </ion-card-content>
         </ion-card>
     </div>

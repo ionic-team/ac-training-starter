@@ -1,7 +1,16 @@
 {
   "name": "ac-training-starter",
   "integrations": {
-    "capacitor": {}
+    "capacitor": {},
+    "enterprise": {
+      "keyId": 210,
+      "productKey": "key_b320436cd6134402b612bb29c7a81ebe",
+      "appId": "917edda8",
+      "orgId": "3cf21768-8696-4b83-bcba-e60e1a6db538",
+      "registries": [
+        "@ionic-enterprise;https://registry.ionicframework.com/"
+      ]
+    }
   },
   "type": "angular"
 }
